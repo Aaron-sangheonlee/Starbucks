@@ -1,0 +1,20 @@
+PODS:
+  - PagingKit (1.18.0)
+  - XLPagerTabStrip (9.0.0)
+
+DEPENDENCIES:
+  - PagingKit
+  - XLPagerTabStrip (~> 9.0)
+
+SPEC REPOS:
+  trunk:
+    - PagingKit
+    - XLPagerTabStrip
+
+SPEC CHECKSUMS:
+  PagingKit: 366cc22d74f4de7768bb31d8fcd49182f53e3ce7
+  XLPagerTabStrip: 61c57fd61f611ee5f01ff1495ad6fbee8bf496c5
+
+PODFILE CHECKSUM: 90d4f2ac82d761df70f81092cf61273309c39401
+
+COCOAPODS: 1.10.2

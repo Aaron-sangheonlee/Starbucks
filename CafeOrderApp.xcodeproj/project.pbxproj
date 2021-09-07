@@ -1,0 +1,512 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		C06FC82D26C63B2600855793 /* MenuCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C06FC82C26C63B2600855793 /* MenuCell.xib */; };
+		C06FC82F26C63B9D00855793 /* MenuCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C06FC82E26C63B9D00855793 /* MenuCell.swift */; };
+		C09DB2C626AA96CF00A99849 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09DB2C526AA96CF00A99849 /* AppDelegate.swift */; };
+		C09DB2C826AA96CF00A99849 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09DB2C726AA96CF00A99849 /* SceneDelegate.swift */; };
+		C09DB2CA26AA96CF00A99849 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09DB2C926AA96CF00A99849 /* ViewController.swift */; };
+		C09DB2CD26AA96CF00A99849 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09DB2CB26AA96CF00A99849 /* Main.storyboard */; };
+		C09DB2CF26AA96D000A99849 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C09DB2CE26AA96D000A99849 /* Assets.xcassets */; };
+		C09DB2D226AA96D000A99849 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = C09DB2D026AA96D000A99849 /* LaunchScreen.storyboard */; };
+		C09DB2DB26AD45CB00A99849 /* beverageTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09DB2D926AD45CA00A99849 /* beverageTableViewCell.swift */; };
+		C09DB2DC26AD45CB00A99849 /* beverageTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09DB2DA26AD45CA00A99849 /* beverageTableViewCell.xib */; };
+		C09DB2DE26AD605C00A99849 /* data class.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09DB2DD26AD605C00A99849 /* data class.swift */; };
+		C09DB2E026AE938A00A99849 /* CategoryViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09DB2DF26AE938A00A99849 /* CategoryViewController.swift */; };
+		C09DB2E526AE952200A99849 /* beverageCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09DB2E326AE952200A99849 /* beverageCell.swift */; };
+		C09DB2E626AE952200A99849 /* beverageCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09DB2E426AE952200A99849 /* beverageCell.xib */; };
+		C09DB2EB26AF0BD500A99849 /* beverageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09DB2EA26AF0BD500A99849 /* beverageViewController.swift */; };
+		C09DB2ED26AFCDFC00A99849 /* OrderViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09DB2EC26AFCDFC00A99849 /* OrderViewController.swift */; };
+		C09DB2EF26B0294100A99849 /* myMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09DB2EE26B0294100A99849 /* myMenuViewController.swift */; };
+		C09DB2F226B02F6300A99849 /* myMenuTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09DB2F026B02F6300A99849 /* myMenuTableViewCell.swift */; };
+		C09DB2F326B02F6300A99849 /* myMenuTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09DB2F126B02F6300A99849 /* myMenuTableViewCell.xib */; };
+		C09DB2F526B108D200A99849 /* FoodViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09DB2F426B108D200A99849 /* FoodViewController.swift */; };
+		C09DB34026C1066200A99849 /* TabBarViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = C09DB33F26C1066200A99849 /* TabBarViewController.swift */; };
+		C09DB3BA26C633E200A99849 /* FocusView.xib in Resources */ = {isa = PBXBuildFile; fileRef = C09DB3B926C633E200A99849 /* FocusView.xib */; };
+		D2F0DB7E346037B308694E26 /* Pods_CafeOrderApp.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 083201337FFDA2935E1BC91D /* Pods_CafeOrderApp.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		083201337FFDA2935E1BC91D /* Pods_CafeOrderApp.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_CafeOrderApp.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		6D6049DD812E690392A83A62 /* Pods-CafeOrderApp.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeOrderApp.debug.xcconfig"; path = "Target Support Files/Pods-CafeOrderApp/Pods-CafeOrderApp.debug.xcconfig"; sourceTree = "<group>"; };
+		C06FC82C26C63B2600855793 /* MenuCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = MenuCell.xib; sourceTree = "<group>"; };
+		C06FC82E26C63B9D00855793 /* MenuCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuCell.swift; sourceTree = "<group>"; };
+		C09DB2C226AA96CF00A99849 /* CafeOrderApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CafeOrderApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		C09DB2C526AA96CF00A99849 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		C09DB2C726AA96CF00A99849 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		C09DB2C926AA96CF00A99849 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		C09DB2CC26AA96CF00A99849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		C09DB2CE26AA96D000A99849 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		C09DB2D126AA96D000A99849 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		C09DB2D326AA96D000A99849 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C09DB2D926AD45CA00A99849 /* beverageTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beverageTableViewCell.swift; sourceTree = "<group>"; };
+		C09DB2DA26AD45CA00A99849 /* beverageTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = beverageTableViewCell.xib; sourceTree = "<group>"; };
+		C09DB2DD26AD605C00A99849 /* data class.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "data class.swift"; sourceTree = "<group>"; };
+		C09DB2DF26AE938A00A99849 /* CategoryViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CategoryViewController.swift; sourceTree = "<group>"; };
+		C09DB2E326AE952200A99849 /* beverageCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beverageCell.swift; sourceTree = "<group>"; };
+		C09DB2E426AE952200A99849 /* beverageCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = beverageCell.xib; sourceTree = "<group>"; };
+		C09DB2EA26AF0BD500A99849 /* beverageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = beverageViewController.swift; sourceTree = "<group>"; };
+		C09DB2EC26AFCDFC00A99849 /* OrderViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OrderViewController.swift; sourceTree = "<group>"; };
+		C09DB2EE26B0294100A99849 /* myMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMenuViewController.swift; sourceTree = "<group>"; };
+		C09DB2F026B02F6300A99849 /* myMenuTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = myMenuTableViewCell.swift; sourceTree = "<group>"; };
+		C09DB2F126B02F6300A99849 /* myMenuTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = myMenuTableViewCell.xib; sourceTree = "<group>"; };
+		C09DB2F426B108D200A99849 /* FoodViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = FoodViewController.swift; path = ViewController/FoodViewController.swift; sourceTree = "<group>"; };
+		C09DB33F26C1066200A99849 /* TabBarViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TabBarViewController.swift; sourceTree = "<group>"; };
+		C09DB3B926C633E200A99849 /* FocusView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = FocusView.xib; path = CafeOrderApp/FocusView.xib; sourceTree = SOURCE_ROOT; };
+		F37FC7FD4EC04C557A693E74 /* Pods-CafeOrderApp.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CafeOrderApp.release.xcconfig"; path = "Target Support Files/Pods-CafeOrderApp/Pods-CafeOrderApp.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		C09DB2BF26AA96CF00A99849 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				D2F0DB7E346037B308694E26 /* Pods_CafeOrderApp.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		6EF0A1E6B257CC3105E6C83C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				083201337FFDA2935E1BC91D /* Pods_CafeOrderApp.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		C09DB2B926AA96CF00A99849 = {
+			isa = PBXGroup;
+			children = (
+				C09DB2C426AA96CF00A99849 /* CafeOrderApp */,
+				C09DB2C326AA96CF00A99849 /* Products */,
+				FA69D7095C7ABA4D65E0AC22 /* Pods */,
+				6EF0A1E6B257CC3105E6C83C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		C09DB2C326AA96CF00A99849 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				C09DB2C226AA96CF00A99849 /* CafeOrderApp.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C09DB2C426AA96CF00A99849 /* CafeOrderApp */ = {
+			isa = PBXGroup;
+			children = (
+				C09DB2F626B272E200A99849 /* myMenuCell */,
+				C09DB2E926AF0BAC00A99849 /* ViewController */,
+				C09DB2E826AF0B7500A99849 /* beverageCell */,
+				C09DB2E726AF0B5500A99849 /* beverageCategoryCell */,
+				C09DB2C526AA96CF00A99849 /* AppDelegate.swift */,
+				C09DB2C726AA96CF00A99849 /* SceneDelegate.swift */,
+				C09DB2CB26AA96CF00A99849 /* Main.storyboard */,
+				C09DB2F426B108D200A99849 /* FoodViewController.swift */,
+				C09DB2CE26AA96D000A99849 /* Assets.xcassets */,
+				C09DB2D026AA96D000A99849 /* LaunchScreen.storyboard */,
+				C09DB2D326AA96D000A99849 /* Info.plist */,
+				C09DB2DD26AD605C00A99849 /* data class.swift */,
+			);
+			path = CafeOrderApp;
+			sourceTree = "<group>";
+		};
+		C09DB2E726AF0B5500A99849 /* beverageCategoryCell */ = {
+			isa = PBXGroup;
+			children = (
+				C09DB2D926AD45CA00A99849 /* beverageTableViewCell.swift */,
+				C09DB2DA26AD45CA00A99849 /* beverageTableViewCell.xib */,
+			);
+			path = beverageCategoryCell;
+			sourceTree = "<group>";
+		};
+		C09DB2E826AF0B7500A99849 /* beverageCell */ = {
+			isa = PBXGroup;
+			children = (
+				C09DB2E326AE952200A99849 /* beverageCell.swift */,
+				C09DB2E426AE952200A99849 /* beverageCell.xib */,
+			);
+			path = beverageCell;
+			sourceTree = "<group>";
+		};
+		C09DB2E926AF0BAC00A99849 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				C09DB2C926AA96CF00A99849 /* ViewController.swift */,
+				C09DB33F26C1066200A99849 /* TabBarViewController.swift */,
+				C09DB3B926C633E200A99849 /* FocusView.xib */,
+				C09DB2DF26AE938A00A99849 /* CategoryViewController.swift */,
+				C06FC82C26C63B2600855793 /* MenuCell.xib */,
+				C06FC82E26C63B9D00855793 /* MenuCell.swift */,
+				C09DB2EA26AF0BD500A99849 /* beverageViewController.swift */,
+				C09DB2EC26AFCDFC00A99849 /* OrderViewController.swift */,
+				C09DB2EE26B0294100A99849 /* myMenuViewController.swift */,
+			);
+			path = ViewController;
+			sourceTree = "<group>";
+		};
+		C09DB2F626B272E200A99849 /* myMenuCell */ = {
+			isa = PBXGroup;
+			children = (
+				C09DB2F026B02F6300A99849 /* myMenuTableViewCell.swift */,
+				C09DB2F126B02F6300A99849 /* myMenuTableViewCell.xib */,
+			);
+			path = myMenuCell;
+			sourceTree = "<group>";
+		};
+		FA69D7095C7ABA4D65E0AC22 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D6049DD812E690392A83A62 /* Pods-CafeOrderApp.debug.xcconfig */,
+				F37FC7FD4EC04C557A693E74 /* Pods-CafeOrderApp.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		C09DB2C126AA96CF00A99849 /* CafeOrderApp */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C09DB2D626AA96D000A99849 /* Build configuration list for PBXNativeTarget "CafeOrderApp" */;
+			buildPhases = (
+				A5CC6BEF64967F00C6B9D335 /* [CP] Check Pods Manifest.lock */,
+				C09DB2BE26AA96CF00A99849 /* Sources */,
+				C09DB2BF26AA96CF00A99849 /* Frameworks */,
+				C09DB2C026AA96CF00A99849 /* Resources */,
+				49E4595470A3CDE48C9C837F /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CafeOrderApp;
+			productName = CafeOrderApp;
+			productReference = C09DB2C226AA96CF00A99849 /* CafeOrderApp.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		C09DB2BA26AA96CF00A99849 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					C09DB2C126AA96CF00A99849 = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+				};
+			};
+			buildConfigurationList = C09DB2BD26AA96CF00A99849 /* Build configuration list for PBXProject "CafeOrderApp" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = C09DB2B926AA96CF00A99849;
+			productRefGroup = C09DB2C326AA96CF00A99849 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				C09DB2C126AA96CF00A99849 /* CafeOrderApp */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		C09DB2C026AA96CF00A99849 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C09DB2D226AA96D000A99849 /* LaunchScreen.storyboard in Resources */,
+				C09DB3BA26C633E200A99849 /* FocusView.xib in Resources */,
+				C06FC82D26C63B2600855793 /* MenuCell.xib in Resources */,
+				C09DB2F326B02F6300A99849 /* myMenuTableViewCell.xib in Resources */,
+				C09DB2DC26AD45CB00A99849 /* beverageTableViewCell.xib in Resources */,
+				C09DB2CF26AA96D000A99849 /* Assets.xcassets in Resources */,
+				C09DB2E626AE952200A99849 /* beverageCell.xib in Resources */,
+				C09DB2CD26AA96CF00A99849 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		49E4595470A3CDE48C9C837F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CafeOrderApp/Pods-CafeOrderApp-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-CafeOrderApp/Pods-CafeOrderApp-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-CafeOrderApp/Pods-CafeOrderApp-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5CC6BEF64967F00C6B9D335 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CafeOrderApp-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		C09DB2BE26AA96CF00A99849 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				C06FC82F26C63B9D00855793 /* MenuCell.swift in Sources */,
+				C09DB2CA26AA96CF00A99849 /* ViewController.swift in Sources */,
+				C09DB2DB26AD45CB00A99849 /* beverageTableViewCell.swift in Sources */,
+				C09DB2E526AE952200A99849 /* beverageCell.swift in Sources */,
+				C09DB2C626AA96CF00A99849 /* AppDelegate.swift in Sources */,
+				C09DB2DE26AD605C00A99849 /* data class.swift in Sources */,
+				C09DB2EF26B0294100A99849 /* myMenuViewController.swift in Sources */,
+				C09DB2F226B02F6300A99849 /* myMenuTableViewCell.swift in Sources */,
+				C09DB2E026AE938A00A99849 /* CategoryViewController.swift in Sources */,
+				C09DB2C826AA96CF00A99849 /* SceneDelegate.swift in Sources */,
+				C09DB2EB26AF0BD500A99849 /* beverageViewController.swift in Sources */,
+				C09DB34026C1066200A99849 /* TabBarViewController.swift in Sources */,
+				C09DB2F526B108D200A99849 /* FoodViewController.swift in Sources */,
+				C09DB2ED26AFCDFC00A99849 /* OrderViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		C09DB2CB26AA96CF00A99849 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C09DB2CC26AA96CF00A99849 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		C09DB2D026AA96D000A99849 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				C09DB2D126AA96D000A99849 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		C09DB2D426AA96D000A99849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		C09DB2D526AA96D000A99849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		C09DB2D726AA96D000A99849 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 6D6049DD812E690392A83A62 /* Pods-CafeOrderApp.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQGT9YBCG4;
+				INFOPLIST_FILE = CafeOrderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Aaron.CafeOrderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		C09DB2D826AA96D000A99849 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = F37FC7FD4EC04C557A693E74 /* Pods-CafeOrderApp.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZQGT9YBCG4;
+				INFOPLIST_FILE = CafeOrderApp/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = Aaron.CafeOrderApp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		C09DB2BD26AA96CF00A99849 /* Build configuration list for PBXProject "CafeOrderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09DB2D426AA96D000A99849 /* Debug */,
+				C09DB2D526AA96D000A99849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C09DB2D626AA96D000A99849 /* Build configuration list for PBXNativeTarget "CafeOrderApp" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				C09DB2D726AA96D000A99849 /* Debug */,
+				C09DB2D826AA96D000A99849 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = C09DB2BA26AA96CF00A99849 /* Project object */;
+}
